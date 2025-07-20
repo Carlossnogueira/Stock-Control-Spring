@@ -17,4 +17,5 @@ public class UserDTO {
 
     @Email(message = "Email is required.")
     private String email;
+    
 }

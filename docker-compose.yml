@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   postgres:
-    container_name: stock_system_postgres
+    container_name: stock_system_postgres_java
     image: postgres
     ports:
       - 5432:5432

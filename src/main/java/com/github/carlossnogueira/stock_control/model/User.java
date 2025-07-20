@@ -13,7 +13,6 @@ import org.hibernate.validator.constraints.Length;
 
 import java.time.LocalDateTime;
 
-
 @Data
 @Entity(name = "users")
 public class User {
@@ -32,7 +31,6 @@ public class User {
     @Length(min = 6, max = 12, message = "Password need to be more than 6 characters.")
     private String password;
 
-    @NotBlank
     private UserRole userRole;
 
     @CreationTimestamp
