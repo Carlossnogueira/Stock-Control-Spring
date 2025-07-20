@@ -17,7 +17,7 @@ public class ProductCategory {
     private Integer id;
 
     @NotBlank(message = "Category name can't be empty.")
-    @Length(min = 6, max = 12, message = "Password need to be more than 6 characters.")
+    @Length(min = 6, max = 15, message = "Password need to be more than 6 characters.")
     @Pattern(regexp = "\\S+", message = "Don't use spaces in category name")
     private String name;
 

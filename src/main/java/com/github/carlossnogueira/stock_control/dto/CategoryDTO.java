@@ -9,6 +9,7 @@ import lombok.Data;
 public class CategoryDTO {
     
     @NotBlank(message = "Category name can't be blank.")
-    @Length(min = 1, max = 30, message = "Category can be between 1 and 30 characters.")
+    @Length(min = 1, max = 15, message = "Category can be between 1 and 30 characters.")
+    
     public String name;
 }
